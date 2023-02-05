@@ -176,27 +176,27 @@ interface ISiteMetadata {
   author: string
 }
 
-module.exports = {
-  plugins: [
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `content`,
-        path: `${__dirname}/src/content`,
-      },
-    },
-  ],
-}
+// module.exports = {
+//   plugins: [
+//     {
+//       resolve: `gatsby-source-filesystem`,
+//       options: {
+//         name: `content`,
+//         path: `${__dirname}/src/content`,
+//       },
+//     },
+//   ],
+// }
 
-module.exports = {
-  plugins: [
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `content`,
-        path: `${__dirname}/src/content`,
-      },
-    },
-    `gatsby-transformer-remark`,
-  ],
-}
+// module.exports = {
+//   plugins: [
+//     {
+//       resolve: `gatsby-source-filesystem`,
+//       options: {
+//         name: `content`,
+//         path: `${__dirname}/src/content`,
+//       },
+//     },
+//     `gatsby-transformer-remark`,
+//   ],
+// }
