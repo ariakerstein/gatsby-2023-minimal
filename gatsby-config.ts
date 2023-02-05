@@ -17,6 +17,7 @@ const config: GatsbyConfig = {
     author: `@lekoarts_de`,
   },
   trailingSlash: `never`,
+  plugins: [`gatsby-plugin-netlify-cms`],
   plugins: [
     {
       resolve: `@lekoarts/gatsby-theme-minimal-blog`,
